@@ -1,0 +1,85 @@
+        body
+        {
+            background-image: url("asphalt.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            overflow-x: hidden;
+            width:1366px;
+            margin:0;
+            padding:0;
+        }
+        .heading
+        {
+            font-size: 55px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:aqua;
+        }
+        .Welcome
+        {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:aqua; 
+        }
+        #enq
+        {
+            height:90px;
+            width:290px;
+        }
+        a
+        {
+            color:white;
+        }
+        .section5
+        {
+            color: white;
+            background-color: blueviolet;
+            opacity:0.9;
+            border:solid lightsalmon 3px;
+            height:390px;
+            width:310px;
+            margin-left:530px;
+            margin-right:150px;
+        
+        }
+        .inputs
+        {
+            width:290px;
+            text-align:center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset 
+        {
+            text-align: center;
+        }
+        button
+        {
+            height:50px; 
+            width:100px; 
+            margin: -20px -50px; 
+            position:relative;
+            top:50%; 
+            left:50%;
+        }
+        .section4
+        {
+            color: white;
+            background-color: blueviolet;
+            opacity:0.9;
+            border:solid lightsalmon 3px;
+            width:310px;
+            margin-left:523px;
+            padding-left:10px;
+            padding-bottom:30px;
+        
+        }
+       #ic
+       {
+           height:160px;
+           background-color: blueviolet;
+           color:black;
+           text-align:center;
+           opacity:0.9;
+           margin-top:400px;
+           border:solid lightsalmon 3px;
+       }
+    

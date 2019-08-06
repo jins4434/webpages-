@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- image courtesy by mike bird from pexels  -->
+<html>
+
+<head>
+    <title>JINS MOTORS</title>
+    <link rel="stylesheet" type="text/css" href="jinsmotors.css" />
+    <script src="jinsmotors.js"></script>
+
+
+</head>
+
+<body>
+
+    <a name="top"></a>
+    <div style="text-align:center">
+        <h1 class="heading">JINS MOTORS</h1>
+    </div>
+    <div id="section2" style="text-align:center">
+        <h2 class="Welcome">WELCOME TO OUR SITE</h2>
+    </div>
+    <div id="section3" style="text-align:center">
+        <font size="5px"><a href="aboutus.html">About us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="ourworks.html">Our works</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="ourclients.html">Our clients</a>
+        </font>
+    </div>
+    <br>
+    <div class="section4">
+        <p style="font-size:30px">Enquiry Form</p>
+        <form onsubmit="return validate();" action="sucessful.html">
+            Name : <input id="nm" class="inputs" type="text" name="name" placeholder="your name">
+            <label id="nm1" style="color:red;visibility:hidden">invalid</label>
+            <br>
+            Email : <input id="em" class="inputs" type="text" name="email" placeholder="your email">
+            <label id="em1" style="color:red;visibility:hidden">invalid</label>
+            <br>
+            Contact :<input id="con" class="inputs" type="text" name="pwd" placeholder="your contact no">
+            <label id="con1" style="color:red;visibility:hidden">invalid</label>
+            <br>
+            Enquiry:<textarea id="enq" required
+                placeholder="your enquiry, please mention your vehicle model"></textarea>
+            <label id="enq1" style="color:red;visibility:hidden">invalid</label>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick=" validate()" type="submit">submit</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="section5">
+
+        <p>&#42;TWO WHEELER</p>
+
+        <input type="radio" id="ptwo" name="products" value="prdtstww">PRODUCTS
+        <br>
+        <input type="radio" id="stwo" name="products" value="srvstww">SERVICES
+
+        <hr>
+        <p>&#42;THREE WHEELER</p>
+
+        <input type="radio" id="pthree" name="products" value="prdtsth">PRODUCTS
+        <br>
+        <input type="radio" id="sthree" name="products" value="srvsth">SERVICES
+
+        <hr>
+        <p>&#42;FOUR WHEELER</p>
+
+        <input type="radio" id="pfour" name="products" value="prdtsfw">PRODUCTS
+        <br>
+        <input type="radio" id="sfour" name="products" value="srvsfw">SERVICES
+        <hr>
+        <br>
+        <br>
+
+        <button type=submit onclick="RadioSection()">submit</button>
+    </div>
+    <div id="ic">
+        <p>Image courtesy,mike bird from pexels.com </p>
+        <p>Image courtesy, by freepik.com </p>
+        <p style="text-align:center;padding-left:55px;font-size:20px;color:black"><a href="#top">Back To Top</a></p>
+        <p style="font-size:20px;text-align:center;color:red">&#169;2019 JINS Motors</p>
+    </div>
+</body>
+
+</html>

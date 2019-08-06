@@ -1,0 +1,127 @@
+#section1
+{
+    text-align: center;
+    color:black;
+    background-color: #ddafd4;
+    border:solid 3px #fae596;
+    opacity:0.9;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body
+{
+    background-image: url("bookshop.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+html,body
+{
+    margin:0;
+    padding:0;
+}
+#section2left
+{
+    text-align: center;
+    color:black;
+     border:solid 3px #fae596;
+    margin-right: 730px;
+    height:1001px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#section3left
+{
+    text-align: center;
+    color:black;
+    padding-right: 100px;
+    border:solid 3px #fae596;
+    margin-right: 750px;
+    height:500px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#section2right
+{
+    margin-left:150px;
+    margin-top:100px;
+    padding-top:50px;
+    color:black;
+    padding-left:130px;
+    padding-right:130px;
+    height:950px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#login
+{
+    text-align: center;
+    color:black;
+    background-color:#ddafd4;
+    border:solid 3px #fae596;
+    padding-top:10px;
+    margin-left:150px;
+    margin-right:310px; 
+    padding-right:150px;
+    padding-left:150px;
+    width:200px;
+    opacity:1;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#register
+{
+    text-align: center;
+    color:black;
+    background-color:#ddafd4;
+    border:solid 3px #fae596;
+    margin-left:150px;
+    margin-right:310px;
+    padding-top:10px;
+    padding-right:150px;
+    padding-left:150px; 
+    width:200px;
+    opacity:1;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+input[type=password], select
+{
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+#thirdsection
+{
+    text-align: center;
+    color:black;
+    background-color: #ddafd4;
+    border:solid 3px #fae596;
+    opacity:0.9;
+    font-family: Arial, Helvetica, sans-serif; 
+    height:100px;
+}
+input[type=text], select
+{
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=submit]
+{
+    padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.sb
+{
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+}
